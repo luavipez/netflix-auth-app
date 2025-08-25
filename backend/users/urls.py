@@ -3,5 +3,5 @@ from django.contrib import admin
 from django.urls import path
 from . import views
 urlpatterns = [
-     path('user/*', views.User, name='register'),
+     path('login/*', views.User, name='register'),
 ]
